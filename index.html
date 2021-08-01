@@ -4,7 +4,7 @@
 <meta charset="UTF=8">
 <meta http-equiv="X-UA-Compatiable" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Learning bootstrap v5 with sass</title>
+<title>Michelle Joseph</title>
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/fontawesome.css">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Yellowtail&display=swap" rel="stylesheet">
@@ -491,7 +491,7 @@
   <div id="fcf-form">
   <h3 class="fcf-h3">Get In Touch</h3>
 
-  <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php" name="contact" data-netlify="true">
+  <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php" name="contact" data-netlify="true" data-netlify-recaptcha="true">
       
       <div class="fcf-form-group">
           <label for="Name" class="fcf-label">Your name</label>
@@ -513,10 +513,13 @@
               <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
           </div>
       </div>
-
+      <p>
+      <div class="fcf-form-group mb-3" data-netlify-recaptcha="true"></div>
+      </p>
       <div class="fcf-form-group">
           <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
       </div>
+
   </form>
   </div>
 
