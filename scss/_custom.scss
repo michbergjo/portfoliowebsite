@@ -3,6 +3,7 @@ $darkblue:  #5811ff98;
 $lightblue:    #94c3f8;
 $darkpurple: #c446ff98;
 $lightpurple: #efc7f3;
+$footer: #470099;
 
 
 
@@ -24,6 +25,8 @@ $secondary:     $darkpurple;
 
 
 //ACCORDIAN OVERRIDES 
+$accordion-padding-y:                     1.5rem;
+$accordion-padding-x:                     1.5rem;
 $accordion-icon-color:                    $primary;
 $accordion-icon-active-color:             $secondary;
 

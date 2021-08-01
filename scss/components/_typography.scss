@@ -14,7 +14,7 @@
     }
 
     &--description {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         display: block;
         margin-top: 1.2rem;
         font-family: 'Yellowtail', cursive;
@@ -25,4 +25,63 @@
             display: inline-block;
         }
     }
+}   
+
+// Heading Line
+.heading-line::before{
+    content: "";
+    width: 10rem;
+    height: 0.1rem;
+    display: block;
+    margin: 0 auto;
+    background-color: $primary;
+}
+.heading-line::after{
+    content: "";
+    width: 2rem;
+    padding-top: 0.5rem;
+    height: 0.2rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    background-color: $primary;
+}
+
+.heading {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Yellowtail', cursive;
+    font-size: 2rem;
+
+    @include media-breakpoint-up(lg) {
+        font-size: 3rem;
+        display: inline-block;
+    }
+}
+
+// DISPLAY 3
+.display-3 {
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Yellowtail', cursive;
+}
+
+//DISPLAY 4
+.display-4 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    font-family: 'Noto Serif', serif;
+}
+
+//BORDER LEFT
+.border-left{
+    border-left: 0.1rem solid $gray-300;
+    height: 100%;
+}
+
+//Project Titltes
+.project-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
