@@ -36,7 +36,7 @@
             <a class="nav-link" href="#portfolio">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#footer">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
           </ul>
       </div>
@@ -50,11 +50,13 @@
       <div class="col-md-6 intros">
         <h1 class="display-2">
           <span class="display-2--intro">Hi there!</span>
-          <span class="display-2--description lh-lg">Welcome to my little corner of the web</span>
+          <span class="display-2--description lh-lg pb-3">Welcome to my little corner of the web</span>
         </h1>
-        <button type="button" class="rounded-pill btn-rounded"> Get in Touch
+        <button type="button" class="rounded-pill btn-rounded">Get in Touch
         <span>
+          <a href="#contact">
           <i class="fas fa-arrow-right"></i>
+        </a>
         </span>
       </button>
       </div>
@@ -482,8 +484,45 @@
 
 
 <!-- START THE CONTACT ME FORM  -->
+<section>
+  <a id="contact"></a>
+<div class="fcf-body mt-4">
 
+  <div id="fcf-form">
+  <h3 class="fcf-h3">Get In Touch</h3>
 
+  <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php" name="contact" data-netlify="true">
+      
+      <div class="fcf-form-group">
+          <label for="Name" class="fcf-label">Your name</label>
+          <div class="fcf-input-group">
+              <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+          </div>
+      </div>
+
+      <div class="fcf-form-group">
+          <label for="Email" class="fcf-label">Your email address</label>
+          <div class="fcf-input-group">
+              <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+          </div>
+      </div>
+
+      <div class="fcf-form-group">
+          <label for="Message" class="fcf-label">Your message</label>
+          <div class="fcf-input-group">
+              <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+          </div>
+      </div>
+
+      <div class="fcf-form-group">
+          <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+      </div>
+  </form>
+  </div>
+
+</div>
+  
+</section>
 
 <!-- START THE FOOTER  -->
 

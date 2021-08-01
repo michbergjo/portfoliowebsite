@@ -12,6 +12,7 @@
     border: 0.1rem solid rgba($white, 0.6);
     background-color: $white;
 
+
     span {
         position: absolute;
         background-color: $primary;
@@ -27,11 +28,15 @@
             font-size: 1rem;
             line-height: 2.5rem;
         }
+
     }
+
+
 
     &:hover {
         @include gradient;
         color: $white;
+        
         
         span {
             background-color: rgba($black, 0.6);
